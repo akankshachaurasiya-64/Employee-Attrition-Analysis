@@ -1,0 +1,92 @@
+# Employee Attrition Analysis
+
+## Project Overview
+This project aims to analyze employee turnover and predict employee attrition using machine learning techniques. The objective is to identify the key factors influencing employee resignation and provide actionable insights for HR teams.
+
+## Dataset
+IBM HR Analytics Employee Attrition & Performance Dataset
+
+## Objectives
+- Analyze employee attrition patterns.
+- Identify factors influencing resignation.
+- Build machine learning models for attrition prediction.
+- Create an HR dashboard with key performance indicators (KPIs).
+
+## Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- XGBoost
+- Power BI
+- Jupyter Notebook
+- VS Code
+
+## Exploratory Data Analysis (EDA)
+The following factors were analyzed:
+- Age vs Attrition
+- Monthly Income vs Attrition
+- Department vs Attrition
+- Job Satisfaction vs Attrition
+- Years at Company vs Attrition
+- Overtime vs Attrition
+- Correlation Heatmap
+
+## Machine Learning Models
+1. Logistic Regression
+2. Random Forest Classifier
+3. XGBoost Classifier
+
+## Evaluation Metrics
+- Accuracy
+- Recall
+- ROC-AUC Score
+
+## Dashboard KPIs
+- Total Employees
+- Employees Left
+- Attrition Rate
+- Average Age
+- Average Monthly Income
+
+## Dashboard Visualizations
+- Attrition by Department
+- Attrition by Job Role
+- Attrition by Income Band
+- Attrition by Overtime
+- Job Satisfaction vs Attrition
+- Gender Distribution
+
+## Key Insights
+- Employees working overtime showed higher attrition.
+- Lower-income employees were more likely to leave.
+- Certain departments experienced higher employee turnover.
+- Job satisfaction significantly influenced employee retention.
+- Attrition was higher among employees with shorter tenure.
+
+## Business Impact
+The analysis helps HR departments identify employees at risk of leaving and supports data-driven retention strategies.
+
+## Project Structure
+
+Employee-Attrition-Analysis/
+│
+├── data/
+├── notebooks/
+│   └── Employee_Attrition_Analysis.ipynb
+│
+├── dashboard/
+│   └── HR_Attrition_Dashboard.pbix
+│
+├── screenshots/
+│
+├── README.md
+│
+└── requirements.txt
+
+## Author
+Akanksha Chaurasiya
+
+![alt text](<Screenshot (23).png>)
